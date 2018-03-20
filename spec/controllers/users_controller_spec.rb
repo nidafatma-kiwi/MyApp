@@ -38,8 +38,8 @@ RSpec.describe UsersController, type: :controller do
   let(:invalid_attributes) {
     {name: 23,
     age: 'test',
-    location: 4,
-    email: 34}
+    location: 'dsnckvdfkvdfvjdfkvdfivjdfkvdfivfdvnfvndfivdvnvdfvndfkvndf',
+    email: 'testemail'}
   }
 
   # This should return the minimal set of values that should be in the session

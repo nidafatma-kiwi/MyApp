@@ -6,7 +6,7 @@ RSpec.describe "users/show", type: :view do
       :name => "Name",
       :location => "Location",
       :age => 2,
-      :email => "Email"
+      :email => "test.test3@rediffmail.com"
     ))
   end
 
